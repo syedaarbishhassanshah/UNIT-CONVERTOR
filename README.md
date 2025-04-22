@@ -1,63 +1,98 @@
-# UNIT-CONVERTOR
-A sleek, high-precision Unit Converter built with Streamlit. Supports 9 categories (Length, Weight, Temp, Area, Volume, Time, Speed, Pressure, Energy), conversion history, formula display, adjustable precision, and a clean UI with emoji icons. Fast, accurate, and user-friendly!
-
+An advanced Unit Converter built with Streamlit. Supports Length, Weight, Temperature, Volume, Speed, and Pressure with precise, adjustable results. Features real-time Plotly charts, conversion history, custom styling, and a clean two-column layout. Fast, accurate, and visually interactive.
 🔁 Streamlit Unit Converter
-A powerful and user-friendly Unit Converter built with Streamlit, offering high-precision conversions across 9 major categories including Length, Weight, Temperature, Area, Volume, Time, Speed, Pressure, and Energy.
-✨ Developed using Cursor, the AI-native code editor for faster and smarter coding.
 
-🚀 Features
-🔢 Convert across 9 categories:
-Length, Weight, Temperature, Area, Volume, Time, Speed, Pressure, and Energy
 
-📐 High-precision calculations with adjustable decimal places (2–10)
+:
 
-🧮 Dynamic formula display for better understanding
+🔁 Advanced Unit Converter (Streamlit)
+An interactive and feature-rich Unit Converter application built with Streamlit, offering professional-grade conversions with a modern interface, visual charts, and conversion history.
 
-📊 Conversion history tracking in the sidebar
+✨ Features
+🖥️ User Interface
+Clean, wide-layout UI for easy interaction
 
-🔍 Formatted number display for large/small values
+Two-column design: input on one side, results on the other
 
-🌡️ Special temperature handling (Celsius, Fahrenheit, Kelvin)
+Custom CSS for a modern look with responsive design
 
-🎨 Clean, modern UI with custom CSS styling and intuitive layout
+Hover effects and styled elements for better UX
 
-✅ Robust error handling and input validation
+🔄 Conversion Capabilities
+Supports major unit categories:
+
+Length
+
+Weight
+
+Temperature (Celsius, Fahrenheit, Kelvin, Rankine)
+
+Volume
+
+Speed
+
+Pressure
+
+High-precision results with adjustable decimal places
+
+Special handling for complex temperature conversions
+
+📊 Advanced Features
+Real-time conversion visualization using Plotly
+
+Conversion history tracking in the sidebar
+
+Option to adjust precision (e.g., 2–10 decimal places)
+
+Dynamic chart updates with each new conversion
 
 🛠️ Tech Stack
-Streamlit – Web UI framework
+Streamlit – UI and app framework
 
-Pandas – Data manipulation
+Pandas – Data handling and conversion logic
 
-Python – Core logic and unit conversion handling
+Plotly Express – Interactive conversion charts
 
-Cursor – AI-powered code editor used for development
+Python – Core logic and structure
 
-📦 How to Run
+🚀 How to Run
+Clone the repository:
+
 bash
 Copy
 Edit
 git clone https://github.com/your-username/unit-converter.git
 cd unit-converter
+Install dependencies:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Launch the app:
+
+bash
+Copy
+Edit
 streamlit run app.py
 📂 Categories Supported
-📏 Length (meters, kilometers, miles, etc.)
+📏 Length – meters, kilometers, inches, feet, etc.
 
-⚖️ Weight (kilograms, pounds, ounces, etc.)
+⚖️ Weight – kilograms, pounds, grams, etc.
 
-🌡️ Temperature (Celsius, Fahrenheit, Kelvin)
+🌡️ Temperature – Celsius, Fahrenheit, Kelvin, Rankine
 
-🟫 Area (square meters, acres, hectares, etc.)
+🧪 Volume – liters, gallons, milliliters, etc.
 
-🧪 Volume (liters, gallons, cups, etc.)
+🚗 Speed – km/h, m/s, mph, etc.
 
-⏱️ Time (seconds, minutes, hours, etc.)
+🔵 Pressure – pascals, bar, psi, atm, etc.
 
-🚗 Speed (m/s, km/h, mph, etc.)
+⚡ Built for both casual users and professionals who need precise, fast, and visually enhanced unit conversions.
 
-🔵 Pressure (pascals, bar, psi, etc.)
 
-🔋 Energy (joules, calories, kilowatt-hours, etc.)
 
-💡 This project is designed to be simple enough for casual users, yet accurate and flexible enough for professional use. Built with care using Streamlit, Python, and Cursor.
+
+
+
+
 
